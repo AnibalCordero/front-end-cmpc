@@ -1,0 +1,48 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #111111;
+  --color-primary: #1ea97c;
+  --color-danger: #dc3545;
+  --font-base: 'Segoe UI', sans-serif;
+  --color-card-bg: #f5f5f5; 
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+}
+
+[data-theme="dark"] {
+  --color-bg: #121212;
+  --color-text: #ffffff;
+  --color-card-bg: #2b2b2b;
+}
+select,
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid var(--color-border, #ccc);
+  background-color: var(--color-bg-input, #ffffff);
+  color: var(--color-text, #000000);
+}
+
+select:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color-accent, #007bff);
+}
+
+:root[data-theme='dark'] {
+  --color-bg-input: #222;
+  --color-text: #e4e4e4;
+  --color-border: #444;
+  
+}:root[data-theme='light'] {
+  --color-bg-input: #fff;
+  --color-text: #000;
+  --color-border: #ccc;
+}

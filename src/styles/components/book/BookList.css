@@ -1,0 +1,53 @@
+.BookList{
+  padding: "1rem";
+}
+
+.BookList > main{
+  height: calc(100vh - 340px);
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+
+.BookList > h1 {
+  display: flex;
+  flex-direction: row;
+    justify-content: space-between;
+}
+
+.pagination-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pagination-nav button {
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text);
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.export-button {
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  border: 1px solid var(--color-border, #ccc);
+  background-color: var(--color-bg-button, #007bff);
+  color: var(--color-text-button, #fff);
+  cursor: pointer;
+  margin-left: 1rem;
+  font-size: 1rem;
+}

@@ -1,0 +1,1 @@
+export const getApiUrl = () => "http://localhost:4000";

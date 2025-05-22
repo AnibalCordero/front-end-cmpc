@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1747899714684" clover="3.2.0">
+  <project timestamp="1747899714684" name="All files">
+    <metrics statements="169" coveredstatements="137" conditionals="29" coveredconditionals="17" methods="57" coveredmethods="42" elements="255" coveredelements="196" complexity="0" loc="169" ncloc="169" packages="6" files="13" classes="13"/>
+    <package name="api">
+      <metrics statements="9" coveredstatements="5" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="axios.ts" path="D:\Stuff\Work\Postulaciones\cmpc\front-end-cmpc\src\api\axios.ts">
+        <metrics statements="9" coveredstatements="5" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components">
+      <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="ConfirmModal.tsx" path="D:\Stuff\Work\Postulaciones\cmpc\front-end-cmpc\src\components\ConfirmModal.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+      </file>
+      <file name="NoResults.tsx" path="D:\Stuff\Work\Postulaciones\cmpc\front-end-cmpc\src\components\NoResults.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.book.components">
+      <metrics statements="56" coveredstatements="51" conditionals="6" coveredconditionals="4" methods="22" coveredmethods="19"/>
+      <file name="AddBookButton.tsx" path="D:\Stuff\Work\Postulaciones\cmpc\front-end-cmpc\src\features\book\components\AddBookButton.tsx">
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="28" type="stmt"/>
+        <line num="7" count="28" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="BookCard.tsx" path="D:\Stuff\Work\Postulaciones\cmpc\front-end-cmpc\src\features\book\components\BookCard.tsx">
+        <metrics statements="17" coveredstatements="14" conditionals="6" coveredconditionals="4" methods="5" coveredmethods="4"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="68" type="stmt"/>
+        <line num="17" count="68" type="stmt"/>
+        <line num="18" count="68" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+      </file>
+      <file name="BookFilters.tsx" path="D:\Stuff\Work\Postulaciones\cmpc\front-end-cmpc\src\features\book\components\BookFilters.tsx">
+        <metrics statements="29" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="11"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="43" count="28" type="stmt"/>
+        <line num="44" count="28" type="stmt"/>
+        <line num="45" count="28" type="stmt"/>
+        <line num="47" count="28" type="stmt"/>
+        <line num="48" count="6" type="stmt"/>
+        <line num="49" count="6" type="stmt"/>
+        <line num="50" count="6" type="stmt"/>
+        <line num="53" count="28" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="103" count="2" type="stmt"/>
+        <line num="114" count="1" type="stmt"/>
+        <line num="115" count="1" type="stmt"/>
+        <line num="129" count="1" type="stmt"/>
+        <line num="141" count="0" type="stmt"/>
+      </file>
+      <file name="FilterSelect.tsx" path="D:\Stuff\Work\Postulaciones\cmpc\front-end-cmpc\src\features\book\components\FilterSelect.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="112" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="174" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.book.pages">
+      <metrics statements="71" coveredstatements="48" conditionals="15" coveredconditionals="7" methods="22" coveredmethods="13"/>
+      <file name="BookList.tsx" path="D:\Stuff\Work\Postulaciones\cmpc\front-end-cmpc\src\features\book\pages\BookList.tsx">
+        <metrics statements="71" coveredstatements="48" conditionals="15" coveredconditionals="7" methods="22" coveredmethods="13"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="30" type="stmt"/>
+        <line num="13" count="30" type="stmt"/>
+        <line num="14" count="30" type="stmt"/>
+        <line num="15" count="30" type="stmt"/>
+        <line num="17" count="30" type="stmt"/>
+        <line num="18" count="30" type="stmt"/>
+        <line num="19" count="30" type="stmt"/>
+        <line num="20" count="30" type="stmt"/>
+        <line num="21" count="30" type="stmt"/>
+        <line num="22" count="30" type="stmt"/>
+        <line num="23" count="30" type="stmt"/>
+        <line num="24" count="30" type="stmt"/>
+        <line num="25" count="30" type="stmt"/>
+        <line num="27" count="30" type="stmt"/>
+        <line num="28" count="22" type="stmt"/>
+        <line num="30" count="22" type="stmt"/>
+        <line num="42" count="22" type="stmt"/>
+        <line num="44" count="22" type="stmt"/>
+        <line num="45" count="22" type="stmt"/>
+        <line num="46" count="22" type="stmt"/>
+        <line num="49" count="30" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="81" count="30" type="stmt"/>
+        <line num="82" count="8" type="stmt"/>
+        <line num="85" count="30" type="stmt"/>
+        <line num="86" count="7" type="stmt"/>
+        <line num="89" count="30" type="stmt"/>
+        <line num="90" count="7" type="stmt"/>
+        <line num="93" count="30" type="stmt"/>
+        <line num="94" count="7" type="stmt"/>
+        <line num="97" count="30" type="stmt"/>
+        <line num="98" count="7" type="stmt"/>
+        <line num="101" count="30" type="stmt"/>
+        <line num="103" count="30" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="134" count="4" type="stmt"/>
+        <line num="135" count="4" type="stmt"/>
+        <line num="136" count="4" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="144" count="0" type="stmt"/>
+        <line num="145" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="147" count="0" type="stmt"/>
+        <line num="148" count="0" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="157" count="61" type="stmt"/>
+        <line num="161" count="0" type="stmt"/>
+        <line num="162" count="0" type="stmt"/>
+        <line num="177" count="0" type="stmt"/>
+        <line num="193" count="1" type="stmt"/>
+        <line num="202" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.book.services">
+      <metrics statements="20" coveredstatements="20" conditionals="3" coveredconditionals="3" methods="5" coveredmethods="5"/>
+      <file name="author.service.ts" path="D:\Stuff\Work\Postulaciones\cmpc\front-end-cmpc\src\features\book\services\author.service.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+      </file>
+      <file name="book.service.ts" path="D:\Stuff\Work\Postulaciones\cmpc\front-end-cmpc\src\features\book\services\book.service.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="22" type="stmt"/>
+        <line num="7" count="22" type="stmt"/>
+        <line num="8" count="198" type="cond" truecount="3" falsecount="0"/>
+        <line num="9" count="89" type="stmt"/>
+        <line num="13" count="22" type="stmt"/>
+        <line num="14" count="22" type="stmt"/>
+      </file>
+      <file name="editorial.service.ts" path="D:\Stuff\Work\Postulaciones\cmpc\front-end-cmpc\src\features\book\services\editorial.service.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+      </file>
+      <file name="genre.service.ts" path="D:\Stuff\Work\Postulaciones\cmpc\front-end-cmpc\src\features\book\services\genre.service.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="0" methods="4" coveredmethods="3"/>
+      <file name="useDebounce.ts" path="D:\Stuff\Work\Postulaciones\cmpc\front-end-cmpc\src\hooks\useDebounce.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="0" methods="4" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="4" count="30" type="stmt"/>
+        <line num="6" count="30" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="11" count="30" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

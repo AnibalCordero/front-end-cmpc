@@ -1,0 +1,13 @@
+:root {
+  --color-bg: #121212;
+  --color-text: #ffffff;
+  --color-primary: #1ea97c;
+  --color-danger: #dc3545;
+
+  --font-base: 'Segoe UI', sans-serif;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+}
